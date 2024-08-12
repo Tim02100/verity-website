@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vérity - Luxusgüter Marktplatz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Vérity</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Produkte</a></li>
+                    <li><a href="#about">Über uns</a></li>
+                    <li><a href="#contact">Kontakt</a></li>
+                    <li><a href="#login">Login</a></li>
+                    <li><a href="#cart">Warenkorb</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Luxusgüter mit Echtheitszertifikat</h2>
+            <p>Entdecken Sie hochwertige Produkte, die von Experten verifiziert und auf der Blockchain zertifiziert sind.</p>
+            <a href="#products" class="cta-button">Jetzt entdecken</a>
+        </div>
+    </section>
+
+    <section class="products" id="products">
+        <div class="container">
+            <h3>Unsere Luxusgüter</h3>
+            <div class="product-grid">
+                <div class="product-item">
+                    <img src="product1.jpg" alt="Produkt 1">
+                    <h4>Luxus Handtasche</h4>
+                    <p>Beschreibung der Luxus Handtasche.</p>
+                    <p class="price">2.500,00 €</p>
+                    <a href="#" class="buy-button">Kaufen</a>
+                </div>
+                <div class="product-item">
+                    <img src="product2.jpg" alt="Produkt 2">
+                    <h4>Designer Uhr</h4>
+                    <p>Beschreibung der Designer Uhr.</p>
+                    <p class="price">5.000,00 €</p>
+                    <a href="#" class="buy-button">Kaufen</a>
+                </div>
+                <!-- Weitere Produkte -->
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <h3>Über Vérity</h3>
+            <p>Wir bieten Ihnen eine Plattform für den Kauf und Verkauf von Luxusgütern, die von Experten geprüft und zertifiziert sind.</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Vérity. Alle Rechte vorbehalten.</p>
+        </div>
+    </footer>
+</body>
+</html>
